@@ -4,18 +4,19 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #2c3e50;
+  --primary: #3498db;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1a1a1a;
+    --foreground: #ecf0f1;
+    --primary: #3498db;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
